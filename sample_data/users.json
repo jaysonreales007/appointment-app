@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {"$oid": "65f2d1234567890123456789"},
+    "email": "admin@law.com",
+    "password": "$2a$10$xxxxxxxxxxx",  // hashed password for "admin123"
+    "fullName": "Admin User",
+    "role": "admin",
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456790"},
+    "email": "john.doe@example.com",
+    "password": "$2a$10$xxxxxxxxxxx",  // hashed password
+    "fullName": "John Doe",
+    "role": "client",
+    "phone": "+1234567890",
+    "appointments": [
+      {"$oid": "65f2d1234567890123456791"},
+      {"$oid": "65f2d1234567890123456792"}
+    ],
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-14T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456793"},
+    "email": "jane.smith@example.com",
+    "password": "$2a$10$xxxxxxxxxxx",  // hashed password
+    "fullName": "Jane Smith",
+    "role": "client",
+    "phone": "+1987654321",
+    "appointments": [
+      {"$oid": "65f2d1234567890123456794"}
+    ],
+    "createdAt": {"$date": "2024-03-14T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-14T00:00:00Z"}
+  }
+] 

@@ -1,0 +1,112 @@
+[
+  {
+    "_id": {"$oid": "65f2d1234567890123456791"},
+    "userId": {"$oid": "65f2d1234567890123456790"},
+    "date": "2024-03-25",
+    "time": "10:00",
+    "caseType": "corporate",
+    "status": "completed",
+    "notes": "Initial consultation for business incorporation",
+    "createdAt": {"$date": "2024-03-20T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-25T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456792"},
+    "userId": {"$oid": "65f2d1234567890123456790"},
+    "date": "2024-03-28",
+    "time": "14:30",
+    "caseType": "family",
+    "status": "pending",
+    "notes": "Family estate planning discussion",
+    "createdAt": {"$date": "2024-03-21T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-21T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456793"},
+    "userId": {"$oid": "65f2d1234567890123456790"},
+    "date": "2024-04-01",
+    "time": "09:00",
+    "caseType": "civil",
+    "status": "confirmed",
+    "notes": "Contract review meeting",
+    "createdAt": {"$date": "2024-03-22T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-23T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456794"},
+    "userId": {"$oid": "65f2d1234567890123456790"},
+    "date": "2024-04-05",
+    "time": "11:30",
+    "caseType": "real_estate",
+    "status": "pending",
+    "notes": "Property acquisition consultation",
+    "createdAt": {"$date": "2024-03-24T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-24T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456795"},
+    "userId": {"$oid": "65f2d1234567890123456790"},
+    "date": "2024-03-22",
+    "time": "15:00",
+    "caseType": "corporate",
+    "status": "cancelled",
+    "notes": "Trademark registration discussion",
+    "createdAt": {"$date": "2024-03-15T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-20T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456796"},
+    "userId": {"$oid": "65f2d1234567890123456793"},
+    "date": "2024-03-26",
+    "time": "13:00",
+    "caseType": "family",
+    "status": "completed",
+    "notes": "Child custody initial consultation",
+    "createdAt": {"$date": "2024-03-20T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-26T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456797"},
+    "userId": {"$oid": "65f2d1234567890123456793"},
+    "date": "2024-03-29",
+    "time": "10:30",
+    "caseType": "civil",
+    "status": "pending",
+    "notes": "Personal injury case discussion",
+    "createdAt": {"$date": "2024-03-22T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-22T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456798"},
+    "userId": {"$oid": "65f2d1234567890123456793"},
+    "date": "2024-04-02",
+    "time": "15:30",
+    "caseType": "real_estate",
+    "status": "confirmed",
+    "notes": "Property dispute consultation",
+    "createdAt": {"$date": "2024-03-23T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-24T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456799"},
+    "userId": {"$oid": "65f2d1234567890123456793"},
+    "date": "2024-04-06",
+    "time": "09:30",
+    "caseType": "family",
+    "status": "pending",
+    "notes": "Divorce proceedings consultation",
+    "createdAt": {"$date": "2024-03-25T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-25T00:00:00Z"}
+  },
+  {
+    "_id": {"$oid": "65f2d1234567890123456800"},
+    "userId": {"$oid": "65f2d1234567890123456793"},
+    "date": "2024-03-23",
+    "time": "11:00",
+    "caseType": "civil",
+    "status": "cancelled",
+    "notes": "Insurance claim discussion",
+    "createdAt": {"$date": "2024-03-18T00:00:00Z"},
+    "updatedAt": {"$date": "2024-03-22T00:00:00Z"}
+  }
+] 
