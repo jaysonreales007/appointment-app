@@ -12,7 +12,8 @@ sample_data
 dist
 dist-ssr
 *.local
-.env
+*.env
+*.env.ts
 
 # Editor directories and files
 .vscode/*
